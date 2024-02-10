@@ -4,6 +4,7 @@ import static org.testng.Assert.assertEquals;
 
 import java.time.Duration;
 import java.time.LocalDate;
+import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -84,6 +85,31 @@ public class Mosafer extends Parameters {
 
 		assertEquals(ActualReturn, expectedReturnDate);
 		assertEquals(ActualDepatureDate, expectedDepatureDate);
+
+	}
+	
+	@Test(priority = 7)
+	public void RandomMethodToChangeTheLanguage() {
+		Random rand = new Random();
+
+		int randomIndexForTheWebSite = rand.nextInt(Websites.length);
+
+		driver.get(Websites[randomIndexForTheWebSite]);
+
+		if (driver.getCurrentUrl().contains("ar")) {
+			String ExpectedLang = "ar";
+
+			String ActualLang = driver.findElement(By.tagName("html")).getAttribute("lang");
+
+			assertEquals(ActualLang, ExpectedLang);
+		} else {
+			String ExpectedLang = "en";
+
+			String ActualLang = driver.findElement(By.tagName("html")).getAttribute("lang");
+
+			assertEquals(ActualLang, ExpectedLang);
+
+		}
 
 	}
 }
