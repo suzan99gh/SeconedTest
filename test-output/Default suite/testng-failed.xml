@@ -5,8 +5,8 @@
     <classes>
       <class name="mosafer.Mosafer">
         <methods>
-          <include name="TestLanguageIsEnglish"/>
-          <include name="MtSetUp"/>
+          <include name="MySetUp"/>
+          <include name="select"/>
         </methods>
       </class> <!-- mosafer.Mosafer -->
     </classes>

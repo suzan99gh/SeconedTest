@@ -1,40 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="5" total="9" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-09T09:47:31 GMT-08:00" name="Default suite" finished-at="2024-02-09T09:47:39 GMT-08:00" duration-ms="8564">
+  <suite started-at="2024-02-12T14:49:30 EET" name="Default suite" finished-at="2024-02-12T14:49:47 EET" duration-ms="17003">
     <groups>
     </groups>
-    <test started-at="2024-02-09T09:47:31 GMT-08:00" name="Default test" finished-at="2024-02-09T09:47:39 GMT-08:00" duration-ms="8564">
+    <test started-at="2024-02-12T14:49:30 EET" name="Default test" finished-at="2024-02-12T14:49:47 EET" duration-ms="17003">
       <class name="mosafer.Mosafer">
-        <test-method is-config="true" signature="MySetUp()[pri:0, instance:mosafer.Mosafer@299321e2]" started-at="2024-02-09T09:47:31 GMT-08:00" name="MySetUp" finished-at="2024-02-09T09:47:38 GMT-08:00" duration-ms="7736" status="PASS">
+        <test-method is-config="true" signature="MySetUp()[pri:0, instance:mosafer.Mosafer@2f17e30d]" started-at="2024-02-12T14:49:30 EET" name="MySetUp" finished-at="2024-02-12T14:49:42 EET" duration-ms="12026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MySetUp -->
-        <test-method signature="TestLanguageIsEnglish()[pri:1, instance:mosafer.Mosafer@299321e2]" started-at="2024-02-09T09:47:38 GMT-08:00" name="TestLanguageIsEnglish" finished-at="2024-02-09T09:47:39 GMT-08:00" duration-ms="99" status="PASS">
+        <test-method signature="TestLanguageIsEnglish()[pri:1, instance:mosafer.Mosafer@2f17e30d]" started-at="2024-02-12T14:49:42 EET" name="TestLanguageIsEnglish" finished-at="2024-02-12T14:49:43 EET" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestLanguageIsEnglish -->
-        <test-method signature="CheekCurrencySAR()[pri:2, instance:mosafer.Mosafer@299321e2]" started-at="2024-02-09T09:47:39 GMT-08:00" name="CheekCurrencySAR" finished-at="2024-02-09T09:47:39 GMT-08:00" duration-ms="114" status="PASS">
+        <test-method signature="RandomMethodToChangeTheLanguage()[pri:7, instance:mosafer.Mosafer@2f17e30d]" started-at="2024-02-12T14:49:43 EET" name="RandomMethodToChangeTheLanguage" finished-at="2024-02-12T14:49:43 EET" duration-ms="782" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheekCurrencySAR -->
-        <test-method signature="CheckContactNumber()[pri:3, instance:mosafer.Mosafer@299321e2]" started-at="2024-02-09T09:47:39 GMT-08:00" name="CheckContactNumber" finished-at="2024-02-09T09:47:39 GMT-08:00" duration-ms="74" status="PASS">
+        </test-method> <!-- RandomMethodToChangeTheLanguage -->
+        <test-method signature="SelectHotel()[pri:8, instance:mosafer.Mosafer@2f17e30d]" started-at="2024-02-12T14:49:43 EET" name="SelectHotel" finished-at="2024-02-12T14:49:44 EET" duration-ms="736" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckContactNumber -->
-        <test-method signature="QetafLogo()[pri:4, instance:mosafer.Mosafer@299321e2]" started-at="2024-02-09T09:47:39 GMT-08:00" name="QetafLogo" finished-at="2024-02-09T09:47:39 GMT-08:00" duration-ms="143" status="PASS">
+        </test-method> <!-- SelectHotel -->
+        <test-method signature="select()[pri:9, instance:mosafer.Mosafer@2f17e30d]" started-at="2024-02-12T14:49:44 EET" name="select" finished-at="2024-02-12T14:49:47 EET" duration-ms="3378" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- QetafLogo -->
-        <test-method signature="CheckIfTheeHotelTabNotSelected()[pri:5, instance:mosafer.Mosafer@299321e2]" started-at="2024-02-09T09:47:39 GMT-08:00" name="CheckIfTheeHotelTabNotSelected" finished-at="2024-02-09T09:47:39 GMT-08:00" duration-ms="47" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckIfTheeHotelTabNotSelected -->
-        <test-method signature="CheckDepatureDateAndReturnDate()[pri:6, instance:mosafer.Mosafer@299321e2]" started-at="2024-02-09T09:47:39 GMT-08:00" name="CheckDepatureDateAndReturnDate" finished-at="2024-02-09T09:47:39 GMT-08:00" duration-ms="208" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckDepatureDateAndReturnDate -->
+        </test-method> <!-- select -->
       </class> <!-- mosafer.Mosafer -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
